@@ -7,7 +7,7 @@ def getenricheddata(link):
     httpConn = http.client.HTTPSConnection("linkedin-bulk-data-scraper.p.rapidapi.com")
     payload = f'{{"link":"{link}"}}'
     headers = {
-        'x-rapidapi-key': "472abcb66dmsh3e3ff0bf66046dcp12deaajsnf56c0b0f713a",
+        'x-rapidapi-key': "",
         'x-rapidapi-host': "linkedin-bulk-data-scraper.p.rapidapi.com",
         'Content-Type': "application/json"
     }
